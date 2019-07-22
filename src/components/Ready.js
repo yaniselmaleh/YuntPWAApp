@@ -34,7 +34,7 @@ class Ready extends Component {
             return <React.Fragment><Enigme1/></React.Fragment>
         } else{
             return <section id="count">
-            <h1>Vous êtes pret ?</h1>
+            <h1>Vous êtes prêt ?</h1>
             <p>
                 {this.state.seconds}
             </p>
