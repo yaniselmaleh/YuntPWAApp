@@ -1,0 +1,25 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+#count{
+    margin: auto;
+    display: flex;
+    height: 100vh;
+    // background-color: red;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h1{
+        font-size: 30px;
+        font-family: $titre;
+        font-weight: $bold;
+        padding-bottom: 10vh;
+    }
+
+    p{
+        font-size: 100px;
+        font-family: $titre;
+        font-weight: $bold;
+    }
+}

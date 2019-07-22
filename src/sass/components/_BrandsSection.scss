@@ -1,0 +1,213 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+body{
+    background-color: #fbfbfb;
+}
+
+// a:active, a:focus {
+//     color: red!important;
+//     background: red!important;
+// }
+
+// *|*:-webkit-any-link {
+//     background: transparent!important;
+//     outline: none;
+// }
+
+// *|*:-moz-any-link {
+//    background: transparent!important; 
+//    outline: none;
+// }
+
+// *|*:any-link {
+//    background: transparent!important; 
+//     outline: none;
+// }
+
+.ContainerBrandSection{
+    width: 85%;
+    margin: auto;
+}
+
+#BrandsSection1{
+    img[alt="Progression"]{
+        padding-top: 5vh;
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+
+    h2{
+        font-size: 30px;
+        font-family: $titre;
+        font-weight: $bold;
+        margin: 0%;
+        display: inline-block;
+        padding-right: 20%;
+    }
+    
+    span{
+        font-family: Labeur_light;
+        font-size: 20px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        display: block;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        display: inline-block;
+        margin: 0;
+    }
+}
+
+#BrandsSection2{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    // background-color: red;
+    padding: 5% 2%;
+    box-shadow: 0 15px 30px -15px rgba(0, 0, 0, 0.05);
+
+    article{
+        text-align: center;
+        width: calc(100% / 3 );
+
+        p{
+            padding: 1vh 0vh;
+            font-family: Labeur_bold;
+            font-size: 13px;
+            font-weight: $bold!important;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #000000;
+        }
+
+        .iYGDuo{
+            width: 50%;
+        }
+
+        .dCuMjf, .iYGDuo, .jCiVku, .jjWMmj{
+            height: 4.5px!important;
+        }
+
+        .icon{
+            width: 30%;
+        }
+    }
+}
+
+.ArticleBrands3{
+    img{
+        width: 35%!important;
+    }
+}
+
+.ArticleBrands2{
+
+    img{
+        width: 18%!important;
+    }
+}
+
+#BrandSection3{
+    margin-top: 8vh;
+
+    a{
+        color: black;
+    }
+    
+    .flexBrand{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        padding: 3vh;
+        padding-left: 20%;
+        margin-bottom: 2vh;
+        border: 1px solid red;
+        text-align: left;
+        box-shadow: 0 15px 30px -15px rgba(220, 103, 149, 0.15);
+        border-style: solid;
+        border-width: 2px;
+        border-image-slice: 1;
+        background-image: #ffffff, linear-gradient(to right, #e76b61, #dc6795);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+  
+        h2{
+            font-size: 30px;
+            font-family: $titre;
+            font-weight: $bold;
+            margin: 0%;
+        }
+
+        p{
+            font-family: Labeur_light;
+            opacity: 0.5;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+    }
+
+    aside{
+        width: 20%;
+        img{
+            width: 100%;
+        }
+    }
+
+    article{
+        width: 80%
+    }
+}
+
+.flexBrand2{
+    opacity: .5;
+}
+
+
+#selectlvl{
+    margin-top: -3vh!important;
+    display: block;
+    margin: auto;
+    font-family: Labeur_Bold;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.boulangerLogo{
+    margin-top: 1vh;
+}

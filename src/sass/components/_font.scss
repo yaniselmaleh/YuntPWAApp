@@ -1,0 +1,11 @@
+@import '../helpers/variables.scss';
+
+@font-face {
+    font-family: Labeur_Bold;
+    src: url($UrlBold);
+}
+
+@font-face {
+    font-family: Labeur_Light;
+    src: url($UrlLight);
+}

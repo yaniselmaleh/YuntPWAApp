@@ -1,0 +1,59 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+#layoutMap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+
+    #layoutMapContent{
+        height: 40vh;
+
+        #playMap{
+            margin: auto!important;
+        }
+
+        .flexBrand{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 5vh;
+            margin-top: 1vh;
+            padding: 3vh;
+            padding-left: 20%;
+            text-align: left;
+            h2{
+                font-size: 30px;
+                font-family: $titre;
+                font-weight: $bold;
+                margin: 0%;
+            }
+    
+            p{
+                font-family: Labeur_light;
+                opacity: 0.5;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #000000;
+            }
+        }
+    
+        aside{
+            width: 20%;
+            img{
+                width: 100%;
+            }
+        }
+    
+        article{
+            width: 80%
+        }
+}}
+

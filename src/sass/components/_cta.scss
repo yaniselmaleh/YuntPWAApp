@@ -1,0 +1,72 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+.btn-unfilled {
+    text-decoration: none!important;
+    font-size: 20px!important;
+    width: 80%!important;
+    padding: 4%!important;
+    opacity: 1!important;
+    margin: 0!important;
+    text-align: center!important;
+    display: block!important;
+    color: white!important;
+    font-family: Labeur_Bold!important;
+    font-weight: $bold!important;
+    border: 1px solid $border!important;
+    background: rgb(220, 103, 149)!important;
+    background: linear-gradient(90deg, rgba(220, 103, 149, 1) 35%, rgba(231, 107, 97, 1) 100%)!important;
+    box-shadow: 0 10px 20px 0 rgba(220, 103, 149, 0.35)!important;
+    background-image: linear-gradient(to right, #e76b61, #dc6795)!important;
+    border-radius: 120px!important;
+    -webkit-border-radius: 120px!important;
+    -moz-border-radius: 120px!important;
+    -ms-border-radius: 120px!important;
+    -o-border-radius: 120px!important;
+} 
+
+.btn-filled{
+    text-decoration: none!important;
+    font-size: 20px!important;
+    margin-top: 3vh!important;
+    width: 80%!important;
+    padding: 4%!important;
+    opacity: 1!important;
+    margin: auto!important;
+    text-align: center!important;
+    display: block!important;
+    color: black!important;
+    font-family: Labeur_Bold!important;
+    font-weight: $bold!important;
+    border: 1px solid $border!important;
+    background-color: white!important;
+    border-radius: 120px!important;
+    -webkit-border-radius: 120px!important;
+    -moz-border-radius: 120px!important;
+    -ms-border-radius: 120px!important;
+    -o-border-radius: 120px!important;
+}
+
+.btn-firebase{
+    width: 80%!important;
+    padding: 2%!important;
+    font-family: Labeur_Bold!important;
+    font-weight: $bold!important;
+    background-color: #f2f2f2!important;
+    // box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15) !important;
+
+    border-radius: 120px!important;
+    -webkit-border-radius: 120px!important;
+    -moz-border-radius: 120px!important;
+    -ms-border-radius: 120px!important;
+    -o-border-radius: 120px!important;
+}
+
+.btn-firebase::placeholder{
+    font-size: 23px;
+    // padding-top: -10%!important;
+}
+
+#btn-firebase2{
+    margin-bottom: 15vh!important;
+}

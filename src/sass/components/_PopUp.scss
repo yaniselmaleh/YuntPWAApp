@@ -1,0 +1,45 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+.popup-content{
+    width: 305px;
+    height: 132px!important;
+    border-radius: 26.5px;
+    box-shadow: 0 10px 20px 0 rgba(220, 103, 149, 0.35)!important;
+    border-style: solid!important;
+    border-image-source: linear-gradient(to right, #e76b61, #dc6795)!important;
+    position: absolute;
+    z-index: 2;
+    width: 303px!important;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(187, 187, 187);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+    padding: 5px;
+    top: 594.969px !important;
+    left: 35.5px!important;
+    transition-duration: 2s!important;
+
+    p{
+        padding: 7%;
+        padding-left: 7%!important;
+        font-size: 15px;
+        font-family: Labeur_Bold;
+        font-weight: $bold;
+        transition-duration: 2s!important;
+
+    }
+}
+
+.popup-arrow{
+    display: none;
+}
+
+.close{
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+    font-family: Labeur_Light;
+    font-weight: normal;
+    transition-duration: 2s!important;
+
+}

@@ -1,0 +1,94 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+section #lvl1, section #lvl2, section #lvl3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+ 
+    article{
+        padding-top: 5vh;
+
+        h2{
+            font-size: 30px;
+            font-family: $titre;
+            font-weight: $bold;
+        }
+
+        span{
+            font-family: Labeur_light;
+            font-size: 20px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+        
+        a{
+            padding: 5%!important;
+            display: block;
+            margin-top: 2%;
+            margin: initial!important;
+        }
+        
+        p {
+            font-size: 20px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+            display: inline-block;
+            padding-bottom: 2vh;
+        }
+    }
+}
+
+section .lvl aside{
+    width: 40%;
+
+    img{
+        max-width: 110%;
+    }
+}
+
+.lvl article{
+    padding: 5%;
+    width: 60%;
+}
+
+aside{
+    margin-left: -10%;
+}
+
+#lvl1{
+    padding-top: 3vh;
+}
+
+#lvl2{
+    margin: 10% 0%;
+    opacity: .5!important;
+}
+
+#lvl3{
+    opacity: .5!important;
+}
+
+#selectlvl{
+    padding-top: 5vh;
+    display: block;
+    margin: auto;
+    font-family: Labeur_Bold;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}

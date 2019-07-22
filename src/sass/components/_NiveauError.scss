@@ -1,0 +1,48 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+section #NiveauError{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+
+    aside img{
+        padding-left: 10%;
+        max-width: 100%;
+    }
+ 
+    article{
+        padding-top: 5vh;
+        width:100%;
+
+        h2{
+            font-size: 30px;
+            font-family: $titre;
+            font-weight: $bold;
+            padding-bottom: 3vh;
+        }
+        
+        a{
+            padding: 5%!important;
+            display: block;
+            margin-top: 2%;
+            margin: auto!important;
+        }
+        
+        p {
+            display: block;
+            width: 77%;
+            font-size: 20px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+            display: inline-block;
+            padding-bottom: 5vh;
+        }
+    }
+}

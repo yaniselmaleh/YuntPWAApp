@@ -1,0 +1,150 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+#EnigmeTime {
+    margin: initial!important;
+    max-width: 5%!important;
+    margin-left: 3%!important;
+}
+
+#EnigmeCamera{
+    width: 100%!important;
+    padding: 0%!important;
+    margin: 5vh 0vh!important;
+}
+
+div {
+    width: 100%;
+    // margin: auto;
+    // display: block;
+    // height: 100vh;
+    // background-color: red;
+
+    .center {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .EnigmeFlex{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        box-sizing: border-box;
+        // background-color: blue!important;
+        p{
+            padding-left: 3%;
+        }
+    }
+        // Timmer
+        #timmer {
+            height: 5vh;
+
+            p {
+                line-height: 5vh;
+                // height: 2.5vh;
+                // background-color: white;
+                font-size: 20px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                letter-spacing: normal;
+                display: inline-block;
+            }
+        }
+
+        // Image
+        #EnigmeImg {
+            // background-color: purple;
+            // height: 35vh;
+            @extend .center;
+
+            img {
+                width: 80%;
+                margin: auto;
+                padding-left: 12%;
+            }
+        }
+
+
+        // Cta
+        #EnigmeCtaCard {
+            // background-color: pink;
+            height: 57vh;
+            @extend .center;
+
+            div{
+                text-align: left;
+            }
+
+            a {
+                height: initial;
+                margin: auto!important;
+            }
+
+
+            h2, span{
+                padding-left: 13%;
+            }
+
+            h2{
+                font-size: 30px;
+                font-family: $titre;
+                font-weight: $bold;
+                margin: 0%;
+            }
+            
+            span{
+                font-family: Labeur_light;
+                font-size: 20px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #000000;
+                display: block;
+            }
+        
+            p {
+                font-size: 20px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #000000;
+                display: inline-block;
+                margin: 0;
+            }
+        }
+
+        #EnigmeCta9 {
+            // background-color: pink;
+            height: 27vh;
+            @extend .center;
+
+            a {
+                height: initial;
+                margin: auto!important;
+            }
+        }
+
+        // Progress bar
+        #EnigmeProg {
+            // background-color: blue;
+            height: 8vh;
+            text-align: left;
+            p{
+                font-size: 20px;
+                font-family: Labeur_Light;
+                font-weight: $bold;
+                color :#dc6795;
+                padding-left: 5%;
+                height: 0px;
+                margin-top: .5%;
+            }
+        }
+    
+}

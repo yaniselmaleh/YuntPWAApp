@@ -1,0 +1,31 @@
+
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+section #introduction{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+
+    #imgDraw{
+        padding-left: 10%;
+        max-width: 70%;
+    }
+}
+
+#draw{
+    padding-top: 0vh!important;   
+    width: 100%!important;
+    margin:auto!important;  
+    
+    div canvas{
+        width: 100%!important;
+    }
+}
+
+// #inputdraw{
+//     padding-top: 5vh;
+//     margin-top: 5vh;
+// }

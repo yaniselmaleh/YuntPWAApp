@@ -1,0 +1,72 @@
+@import '../helpers/variables.scss';
+@import '../components/_font.scss';
+
+
+#data_victoire{
+    font-family: $titre;
+    font-size: 60px;
+    font-weight: $bold;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    display: block;
+}
+
+#Time1{
+    display: inline-block;
+    margin: initial !important;
+    max-width: 5% !important;
+    margin-right: 3% !important;
+}
+.felicitation {
+    position: relative;
+    cursor: pointer;
+    background: #FBFBFB;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 5vh;
+
+    img{
+        max-width: 80%!important;
+    }
+
+
+    h2 {
+        font-family: $titre;
+        font-size: 30px;
+        font-weight: $bold;
+        padding: 5vh 0vh 3vh 0vh;
+    }
+
+    p {
+        font-size: 20px;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        display: block;
+        font-family: Labeur_Light;
+    }
+
+    b{
+        font-family: Labeur_Bold;
+        font-weight: $bold;
+    }
+
+    a {
+        font-family: Labeur_Light;
+        cursor: pointer;
+        display: block;
+        margin: auto!important;
+        color: #000000;
+        text-align: center;
+        padding: 1% 3%;
+        margin-right: 1.5%;
+        opacity: 0.5;
+        font-size: 20px;
+        font-weight: $regular!important;
+    }
+
+    a:first-child {
+        padding-right: 5%;
+    }
+}
